@@ -1,7 +1,7 @@
 const express = require('express');
 const http = require('http').Server(express);
 const Socketio = require('socket.io')(http);
-const Port = process.env.PORT || 3000
+const Port = process.env.PORT || 8080
 
 let position = {
     x: 200,

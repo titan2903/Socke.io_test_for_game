@@ -31,7 +31,7 @@ import io from 'socket.io-client';
         }
       },
       created(){
-          this.socket = io('http://localhost:3000');
+          this.socket = io('http://localhost:8080');
       },
       mounted(){
           this.context = this.$refs.game.getContext("2d");
